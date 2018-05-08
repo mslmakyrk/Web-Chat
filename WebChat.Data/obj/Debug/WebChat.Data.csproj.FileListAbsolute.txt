@@ -1,0 +1,12 @@
+c:\users\akyrk\documents\visual studio 2015\Projects\WebChat\WebChat.Data\bin\Debug\WebChat.Data.dll.config
+c:\users\akyrk\documents\visual studio 2015\Projects\WebChat\WebChat.Data\bin\Debug\WebChat.Data.dll
+c:\users\akyrk\documents\visual studio 2015\Projects\WebChat\WebChat.Data\bin\Debug\WebChat.Data.pdb
+c:\users\akyrk\documents\visual studio 2015\Projects\WebChat\WebChat.Data\bin\Debug\EntityFramework.dll
+c:\users\akyrk\documents\visual studio 2015\Projects\WebChat\WebChat.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\akyrk\documents\visual studio 2015\Projects\WebChat\WebChat.Data\bin\Debug\EntityFramework.xml
+c:\users\akyrk\documents\visual studio 2015\Projects\WebChat\WebChat.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\akyrk\documents\visual studio 2015\Projects\WebChat\WebChat.Data\obj\Debug\WebChat.Data.csprojResolveAssemblyReference.cache
+c:\users\akyrk\documents\visual studio 2015\Projects\WebChat\WebChat.Data\obj\Debug\WebChat.Data.dll
+c:\users\akyrk\documents\visual studio 2015\Projects\WebChat\WebChat.Data\obj\Debug\WebChat.Data.pdb
+C:\Users\akyrk\documents\visual studio 2015\Projects\WebChat\WebChat.Data\obj\Debug\WebChat.Data.Migrations.WebChatDataBase.resources
+C:\Users\akyrk\documents\visual studio 2015\Projects\WebChat\WebChat.Data\obj\Debug\WebChat.Data.csproj.GenerateResource.Cache

@@ -1,0 +1,86 @@
+﻿@model WebChat.Data.Model.ViewModel 
+@{
+    ViewBag.Title = "Listele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Mesaj Listesi</h2>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Responsive table -->
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <header class="panel-heading">@ViewBag.Title</header>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Gönderen</th>
+                                    <th>Alan</th>
+                                    <th>Mesaj</th>
+                                    <th>Tarih</th>
+                                    <th>Okundu</th>
+                                    <th>Aktif</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.Mesaj)
+                                {
+                                    <tr>
+                                        
+                                        <td>
+                                            @foreach(var kln in Model.Kullanici)
+                                            {
+                                                if (kln.ID == item.GND)
+                                                {
+                                                    @kln.AdSoyad
+                                                }
+                                            }
+                                        </td>
+                                        <td>
+                                            @foreach (var kln in Model.Kullanici)
+                                            {
+                                                if (kln.ID == item.ALN)
+                                                {
+                                                    @kln.AdSoyad
+                                                }
+                                            }
+                                        </td>
+                                        <td>@item.Mesaj</td>
+                                        <td>@item.Tarih</td>
+                                        <td>
+                                            @if (item.Okundu)
+                                            {
+                                                <span class="label label-info">Okundu</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="label label-danger">Okunmadı</span>
+                                            }
+
+                                        </td> 
+                                        <td>
+                                            @if (item.Aktif)
+                                            {
+                                                <span class="label label-info">Aktif</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="label label-danger">Silindi</span>
+                                            }
+
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Responsive table -->
+    </div>
+</div>

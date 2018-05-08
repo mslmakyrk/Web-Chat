@@ -1,0 +1,64 @@
+﻿@model IEnumerable<WebChat.Data.Model.Kullanici>
+@{
+    ViewBag.Title = "Listele";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Listele</h2>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Responsive table -->
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <header class="panel-heading">@ViewBag.Title</header>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Kullanıcı Adı</th>
+                                    <th>Şifre</th>
+                                    <th>Mail</th>
+                                    <th>Telefon</th>
+                                    <th>Rol</th>
+                                    <th>#</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td><span class="label label-success">@item.ID</span></td>
+                                        <td>@item.AdSoyad</td>
+                                        <td>@item.Sifre</td>
+                                        <td>@item.Mail</td>
+                                        <td>@item.Telefon</td>
+                                        <td>
+                                            @if (item.Rol == 1)
+                                            {
+                                                <span class="label label-danger">Admin</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="label label-info">Kullanıcı</span>
+                                            }
+
+                                       </td>
+                                        
+                                        <td>
+                                            <a href="@Url.Action("Duzenle","Home",new {ID=item.ID })" class="btn btn-default btn-sn">Düzenle</a>
+                                            <button class="btn btn-default" id="KategoriDelete" onclick="KategoriSil(@item.ID)">Sil</button>
+
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Responsive table -->
+    </div>
+</div>

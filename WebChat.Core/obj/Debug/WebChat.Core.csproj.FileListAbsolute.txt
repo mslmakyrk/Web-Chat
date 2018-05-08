@@ -1,0 +1,12 @@
+C:\Users\akyrk\Documents\Visual Studio 2015\Projects\WebChat\WebChat.Core\bin\Debug\WebChat.Core.dll.config
+C:\Users\akyrk\Documents\Visual Studio 2015\Projects\WebChat\WebChat.Core\bin\Debug\WebChat.Core.dll
+C:\Users\akyrk\Documents\Visual Studio 2015\Projects\WebChat\WebChat.Core\bin\Debug\WebChat.Core.pdb
+C:\Users\akyrk\Documents\Visual Studio 2015\Projects\WebChat\WebChat.Core\bin\Debug\EntityFramework.dll
+C:\Users\akyrk\Documents\Visual Studio 2015\Projects\WebChat\WebChat.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\akyrk\Documents\Visual Studio 2015\Projects\WebChat\WebChat.Core\bin\Debug\WebChat.Data.dll
+C:\Users\akyrk\Documents\Visual Studio 2015\Projects\WebChat\WebChat.Core\bin\Debug\WebChat.Data.pdb
+C:\Users\akyrk\Documents\Visual Studio 2015\Projects\WebChat\WebChat.Core\bin\Debug\EntityFramework.xml
+C:\Users\akyrk\Documents\Visual Studio 2015\Projects\WebChat\WebChat.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\akyrk\Documents\Visual Studio 2015\Projects\WebChat\WebChat.Core\obj\Debug\WebChat.Core.csprojResolveAssemblyReference.cache
+C:\Users\akyrk\Documents\Visual Studio 2015\Projects\WebChat\WebChat.Core\obj\Debug\WebChat.Core.dll
+C:\Users\akyrk\Documents\Visual Studio 2015\Projects\WebChat\WebChat.Core\obj\Debug\WebChat.Core.pdb

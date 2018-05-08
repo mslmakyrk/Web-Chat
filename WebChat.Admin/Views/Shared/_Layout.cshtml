@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Component/menu.css" rel="stylesheet" />
+    <script src="~/scripts/main.js"></script>
+    
+</head>
+<body>
+    <div class="divmain">
+        <div class="sidemenu">
+            @Html.Partial("_Menu")
+        </div>
+        <div class="renderdiv">
+            @RenderBody()
+        </divclass="renderdiv">
+    </div>
+    
+</body>
+</html>
